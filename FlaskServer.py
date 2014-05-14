@@ -1,5 +1,3 @@
-__author__ = 'Gautam'
-
 from flask import Flask
 app = Flask(__name__)
 
