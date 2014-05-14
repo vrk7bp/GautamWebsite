@@ -8,3 +8,7 @@ handlers:
 
 - url: .*  # Direct all routes to FlaskServer.py
   script: FlaskServer.app
+
+# libraries:
+# - name: webapp2
+#   version: "2.5.2"
