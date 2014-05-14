@@ -1,9 +1,6 @@
 # Import the Flask Framework
 from flask import Flask
 app = Flask(__name__)
-# Note: We don't need to call run() since our application is embedded within
-# the App Engine WSGI application server.
-
 
 @app.route('/')
 def hello():
@@ -21,3 +18,7 @@ def page_not_found(e):
 def page_not_found(e):
     """Return a custom 500 error."""
     return 'Sorry, unexpected error: {}'.format(e), 500
+    
+
+if __name__ == "__main__":
+	app.run('0.0.0.0', 8080, debug=True)
