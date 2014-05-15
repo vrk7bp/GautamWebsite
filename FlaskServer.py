@@ -20,5 +20,5 @@ def page_not_found(e):
     return 'Sorry, unexpected error: {}'.format(e), 500
     
 
-if __name__ == "__main__":
-	app.run('0.0.0.0', 8080, debug=True)
+# if __name__ == "__main__":
+# 	app.run('0.0.0.0', 8080, debug=True)
