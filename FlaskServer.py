@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    return 'Hello World!'
+    return 'This site is a work in progress... in the meantime visit my GitHub account <a href="https://github.com/vrk7bp"> here. </a>'
 
 
 @app.errorhandler(404)
@@ -18,7 +18,3 @@ def page_not_found(e):
 def page_not_found(e):
     """Return a custom 500 error."""
     return 'Sorry, unexpected error: {}'.format(e), 500
-    
-
-# if __name__ == "__main__":
-# 	app.run('0.0.0.0', 8080, debug=True)
