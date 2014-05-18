@@ -11,11 +11,11 @@ def hello():
 
 @app.errorhandler(404)
 def page_not_found(e):
-    """Return a custom 404 error."""
+    """Custom 404 Page."""
     return render_template('ErrorPage.html'), 404
 
 
 @app.errorhandler(500)
 def page_not_found(e):
-    """Return a custom 500 error."""
-    return 'Sorry, unexpected error: {}'.format(e), 500
+    """Custom 500 Page."""
+    return render_template('500Error.html'), 500
