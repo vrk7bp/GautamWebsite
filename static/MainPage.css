@@ -1,9 +1,14 @@
+.text-container {
+	padding-top: 70px;
+}
+
 .nav-bar-menu a {
-	font-size: 200%
+	font-size: 150%
 }
 
 .drop-down-items a {
 	font-size: 100%;
+	padding-top: 0px;
 }
 
 .circular {
