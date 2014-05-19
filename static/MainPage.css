@@ -22,9 +22,9 @@
 }
 
 .circular {
-	width: 300px;
-	height: 300px;
-	border-radius: 150px;
+	width: 126px;
+	height: 126px;
+	border-radius: 63px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 	background: url(images/ImageOne.jpg) no-repeat;
