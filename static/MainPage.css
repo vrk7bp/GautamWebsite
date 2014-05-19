@@ -1,5 +1,6 @@
 .text-container {
-	padding-top: 70px;
+	padding-top: 50px;
+	padding-bottom: 40px;
 }
 
 .nav-bar-menu a {
@@ -9,12 +10,13 @@
 .drop-down-items a {
 	font-size: 100%;
 	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 .circular {
-	width: 126px;
-	height: 126px;
-	border-radius: 63px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 	background: url(images/ImageOne.jpg) no-repeat;
