@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    return render_template('MainPage.html')
+    return render_template('MainPage2.html')
     #return 'This site is a work in progress... in the meantime visit my GitHub account <a href="https://github.com/vrk7bp"> here. </a>'
 
 
