@@ -3,7 +3,7 @@
 	padding-bottom: 5px;
 }
 
-/*.name-title {
+.name-title {
 	display:inline; 
 	color:#343433; 
 	font-weight:200; 
@@ -12,7 +12,7 @@
 	margin-top: 0;
 	padding-top: 5px;
 	padding-bottom: 5px;
-}*/
+}
 
 .nav-bar-menu a {
 	font-size: 125%
