@@ -13,6 +13,10 @@ def hello():
 def test():
 	return render_template('test.html')
 
+@app.route('/nasa')
+def nasa():
+	return redirect("http://www.seas.virginia.edu/pubs/spectra/pdfs/nasapartnerships.pdf", code=302)
+
 @app.errorhandler(404)
 def page_not_found(e):
     """Custom 404 Page."""
