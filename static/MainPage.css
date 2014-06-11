@@ -26,9 +26,27 @@ body {
 	font-family: 'Lobster', cursive;
 }
 
+/* CSS for the three link icons on the homepage */
 .link-icons {
-	color: #000000;
+	color: ##809aa2;
 }
+
+.icon-active-highlight a:visited {
+  color: #000000;
+}
+
+.icon-active-highlight a:hover {
+  color: #000000;
+}
+
+.icon-active-highlight a:link {
+  color: #000000;
+}
+
+.icon-active-highlight a:active {
+  color: #000000;
+}
+/* End of icon CSS */
 
 /* Wrapper for page content to push down footer */
 #wrap {
