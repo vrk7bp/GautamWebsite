@@ -22,6 +22,14 @@
 body { 
 	padding-top: 70px;
 	margin-bottom: 40px;
+	/* Testing */
+	background: url('/static/images/MainPage2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	color:#fff;
+  	background-color:#333;
 }
 
 /* NavBar css */
