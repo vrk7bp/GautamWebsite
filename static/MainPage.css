@@ -60,6 +60,10 @@ body {
 	color: #000000;
 }
 
+#page-content p a {
+  color: #809aa2;
+}
+
 #page-content p a:active {
   color: #809aa2;
 }
@@ -69,6 +73,10 @@ body {
 }
 
 #page-content p a:link {
+  color: #809aa2;
+}
+
+#page-content p a:visited {
   color: #809aa2;
 }
 
