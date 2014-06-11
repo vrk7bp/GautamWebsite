@@ -11,6 +11,11 @@ body {
   -o-background-size: cover;
   background-size: cover;
   color:#fff;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.page-title {
+	font-size:300%; 
 }
 
 /* Wrapper for page content to push down footer */
@@ -150,7 +155,7 @@ body {
 /* End of NavBar css */
 
 .block {
-  background-color:rgba(0,0,0,0.2);
+	background-color:rgba(0,0,0,0.2);
     height:370px;
     padding-left:12px;
     padding-right:12px;
@@ -161,8 +166,7 @@ body {
 }
 
 .btn-flat {
-    font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
-  border-radius:0px;
+	border-radius:0px;
     border-width:0;
     background-image:none;
     padding:16px;
