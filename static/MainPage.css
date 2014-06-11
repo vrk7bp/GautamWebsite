@@ -52,6 +52,12 @@ body {
 #page-content {
 	background-color: #ffffff;
 	height: 210px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 150%;
+}
+
+#page-content p {
+	color: #000000;
 }
 
 /* Set the fixed height of the footer here */
