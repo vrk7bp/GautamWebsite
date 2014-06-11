@@ -18,12 +18,12 @@ html, body {
 }
 
 #footer {
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 /* Font Color and font padding for the footer */
 #footer p {
-  margin-top: 15px; 
+  padding-top: 10px; 
   color: #809aa2;
 }
 
