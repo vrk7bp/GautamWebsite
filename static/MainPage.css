@@ -29,6 +29,7 @@ body {
 .navbar-default {
 	background-color: #ffffff;
 	border-color: #000000;
+	font-family: 'Ubuntu', sans-serif;
 }
 .navbar-default .navbar-brand {
 	color: #809aa2;
