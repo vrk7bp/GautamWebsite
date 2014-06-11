@@ -15,7 +15,15 @@ body {
 }
 
 .page-title {
-	font-size:300%; 
+	font-size:300%;
+}
+
+.page-subtitle {
+	font-size:150%;
+}
+
+.cursive-font {
+	font-family: 'Lobster', cursive;
 }
 
 /* Wrapper for page content to push down footer */
