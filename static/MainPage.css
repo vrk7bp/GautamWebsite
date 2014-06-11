@@ -60,6 +60,18 @@ body {
 	color: #000000;
 }
 
+#page-content p a:active {
+  color: #809aa2;
+}
+
+#page-content p a:hover {
+  color: #809aa2;
+}
+
+#page-content p a:link {
+  color: #809aa2;
+}
+
 /* Set the fixed height of the footer here */
 #push, #footer {
   height: 40px;
