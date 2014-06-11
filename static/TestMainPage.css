@@ -9,15 +9,38 @@ html, body {
   height: auto !important;
   height: 100%;
   /* Negative indent footer by it's height */
-  margin: 0 auto -60px;
+  margin: 0 auto -40px;
 }
 
 /* Set the fixed height of the footer here */
 #push, #footer {
-  height: 60px;
+  height: 40px;
 }
+
 #footer {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
+}
+
+/* Font Color and font padding for the footer */
+#footer p {
+  margin-top: 15px; 
+  color: #809aa2;
+}
+
+#footer p a:visited {
+  color: #000000;
+}
+
+#footer p a:hover {
+  color: #000000;
+}
+
+#footer p a:link {
+  color: #000000;
+}
+
+#footer p a:active {
+  color: #000000;
 }
 
 /* Lastly, apply responsive CSS fixes as necessary */
