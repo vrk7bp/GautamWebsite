@@ -4,14 +4,23 @@ html, body {
 }
 
 body {
-  background: url('/static/images/MainPage2.jpg') no-repeat center center fixed;
+  /* background: url('/static/images/MainPage2.jpg') no-repeat center center fixed;
   background-position: 0px 45px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
   color:#fff;
   font-family: 'Ubuntu', sans-serif;
+}
+
+#content-placement {
+	background: url('/static/images/MainPage2.jpg') no-repeat center center fixed;
+	/* background-position: 0px 45px; */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
 }
 
 .page-title {
