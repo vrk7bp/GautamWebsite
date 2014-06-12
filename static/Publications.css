@@ -32,6 +32,24 @@ body {
 	font-size:400%;
 }
 
+.block {
+  background-color:rgba(0,0,0,0.2);
+  height:370px;
+  padding-left:12px;
+  padding-right:12px;
+}
+
+.btn-flat {
+  border-radius:0px;
+  border-width:0;
+  background-image:none;
+  padding:16px;
+  margin:0 auto;
+  margin-top:15px;
+  width:70%;
+  font-size:20pt;
+}
+
 /*************************** End changeable box *******************************/
 
 /* Font CSS */
