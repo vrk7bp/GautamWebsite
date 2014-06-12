@@ -26,6 +26,10 @@ body {
 	font-family: 'Lobster', cursive;
 }
 
+.fancy-font {
+	font-family: 'Playfair Display SC', serif;
+}
+
 /* CSS for the three link icons on the homepage */
 .link-icons {
 	color: #809aa2;
