@@ -1,7 +1,8 @@
-/*html, body {
-  height: 100%;
-   The html and body elements cannot have any padding or margin. 
-}*/
+/* General Body CSS */
+html {
+  position: relative;
+  min-height: 100%;
+}
 
 body {
   background: url('/static/images/MainPage2.jpg') no-repeat center center fixed;
@@ -14,6 +15,15 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 40px;
+}
+
+/* End of general body CSS */
+
+/*************************** This box is where CSS cane be changed from page to page *******************************/
+
 .page-title {
 	font-size:700%;
 }
@@ -22,6 +32,9 @@ body {
 	font-size:250%;
 }
 
+/*************************** End changeable box *******************************/
+
+/* Font CSS */
 .cursive-font {
 	font-family: 'Lobster', cursive;
 }
@@ -30,29 +43,13 @@ body {
 	font-family: 'Playfair Display SC', serif;
 }
 
-/* CSS for the three link icons on the homepage */
-.link-icons {
-	color: #809aa2;
+.main-font {
+	font-family: 'Ubuntu', sans-serif;
 }
+/* Font CSS */
 
-.icon-active-highlight a:hover {
-  color: #000000;
-}
 
-.icon-active-highlight a:active {
-  color: #000000;
-}
-/* End of icon CSS */
-
-/* Wrapper for page content to push down footer
-#wrap {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  /* Negative indent footer by it's height
-  margin: 0 auto -250px;
-} */
-
+/*CSS for the white box that holds most of the content */
 #page-content {
 	background-color: #ffffff;
 	height: auto;
@@ -83,26 +80,9 @@ body {
 #page-content p a:visited {
   color: #809aa2;
 }
+/* End Page Content CSS */
 
-/* Set the fixed height of the footer here 
-#push, #footer {
-  height: 250px;
-}
-
-#footer {
-  background-color: #809aa2;
-}
-
-/* Font Color and font padding for the footer */
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 40px;
-}
+/* CSS for the Footer */
 #footer {
   position: absolute;
   bottom: 0;
@@ -113,7 +93,7 @@ body {
 }
 
 #footer p {
-  padding-top: 10px;
+  /*padding-top: 10px;*/
   color: #ffffff;
 }
 
@@ -133,15 +113,7 @@ body {
   color: #000000;
 }
 
-/* Lastly, apply responsive CSS fixes as necessary 
-@media (max-width: 767px) {
-  #footer {
-    margin-left: -20px;
-    margin-right: -20px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-} */
+/*End footer CSS */
 
 /* NavBar css */
 
@@ -228,3 +200,17 @@ body {
 }
 
 /* End of NavBar css */
+
+/* CSS for the three link icons on the homepage */
+.link-icons {
+	color: #809aa2;
+}
+
+.icon-active-highlight a:hover {
+  color: #000000;
+}
+
+.icon-active-highlight a:active {
+  color: #000000;
+}
+/* End of icon CSS */
