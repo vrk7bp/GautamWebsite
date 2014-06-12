@@ -34,7 +34,7 @@ body {
 
 .block {
   background-color:#809aa2;
-  height:530px;
+  height:auto;
   padding-left:12px;
   padding-right:12px;
   margin-bottom: 20px;
