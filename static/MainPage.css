@@ -90,6 +90,7 @@ body {
   /* Set the fixed height of the footer here */
   height: 60px;
   background-color: #809aa2;
+  font-size: 90%;
 }
 
 #footer p {

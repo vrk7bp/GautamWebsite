@@ -17,7 +17,7 @@ body {
 
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 /* End of general body CSS */
@@ -88,8 +88,9 @@ body {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 40px;
+  height: 60px;
   background-color: #809aa2;
+  font-size: 90%;
 }
 
 #footer p {
