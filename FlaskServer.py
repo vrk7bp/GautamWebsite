@@ -15,6 +15,14 @@ def aboutMe():
 def aboutSite():
 	return render_template('AboutSite.html')
 
+@app.route('/projects')
+def projects():
+	return render_template('Projects.html')
+
+@app.route('/pubs')
+def publications():
+	return render_template('Publications.html')
+
 @app.route('/test')
 def test():
 	return render_template('test.html')
