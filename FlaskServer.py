@@ -11,6 +11,10 @@ def hello():
 def aboutMe():
 	return render_template('AboutMe.html')
 
+@app.route('/aboutsite')
+def aboutSite():
+	return render_template('AboutSite.html')
+
 @app.route('/test')
 def test():
 	return render_template('test.html')
