@@ -47,19 +47,19 @@ body {
 }
 
 #block-content a:active {
-  color: #809aa2;
+  color: #000000;
 }
 
 #block-content a:hover {
-  color: #809aa2;
+  color: #000000;
 }
 
 #block-content a:link {
-  color: #809aa2;
+  color: #000000;
 }
 
 #block-content a:visited {
-  color: #809aa2;
+  color: #000000;
 }
 
 .btn-flat {
