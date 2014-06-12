@@ -34,10 +34,12 @@ body {
 
 .block {
   background-color:#809aa2;
-  height:340px;
+  height:530px;
   padding-left:12px;
   padding-right:12px;
   margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: -10px;
 
   /* Rounded Corners */
   border: 2px solid;
