@@ -6,12 +6,12 @@ html {
 
 body {
   background: url('/static/images/AboutMe.jpg') no-repeat center center fixed; /* The image can be changed... */
-  background-position: 0px -65px;
+  background-position: 0px -100px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color:lightslategray;
+  color:black;
   font-family: 'Ubuntu', sans-serif;
 }
 
