@@ -6,7 +6,6 @@ app = Flask(__name__)
 def hello():
     """Return a friendly HTTP greeting."""
     return render_template('MainPage.html')
-    #return 'This site is a work in progress... in the meantime visit my GitHub account <a href="https://github.com/vrk7bp"> here. </a>'
 
 @app.route('/test')
 def test():
@@ -15,6 +14,10 @@ def test():
 @app.route('/nasa')
 def nasa():
 	return redirect("http://www.seas.virginia.edu/pubs/spectra/pdfs/nasapartnerships.pdf", code=302)
+
+@app.route('/resume')
+def resume():
+	return redirect("https://s3.amazonaws.com/GautamResume/GautamKanumuruResume.pdf", code=302)
 
 @app.errorhandler(404)
 def page_not_found(e):
