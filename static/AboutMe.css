@@ -5,8 +5,8 @@ html {
 }
 
 body {
-  background: url('/static/images/MainPage2.jpg') no-repeat center center fixed; /* The image can be changed... */
-  background-position: 0px 45px;
+  background: url('/static/images/AboutMe.jpg') no-repeat center center fixed; /* The image can be changed... */
+  background-position: 0px -65px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -25,11 +25,11 @@ body {
 /*************************** This box is where CSS cane be changed from page to page *******************************/
 
 .page-title {
-	font-size:700%;
+	font-size:1000%;
 }
 
 .page-subtitle {
-	font-size:250%;
+	font-size:400%;
 }
 
 /*************************** End changeable box *******************************/
