@@ -46,6 +46,22 @@ body {
   border-radius: 25px;
 }
 
+#block-content a:active {
+  color: #809aa2;
+}
+
+#block-content a:hover {
+  color: #809aa2;
+}
+
+#block-content a:link {
+  color: #809aa2;
+}
+
+#block-content a:visited {
+  color: #809aa2;
+}
+
 .btn-flat {
   border-radius:0px;
   border-width:0;
