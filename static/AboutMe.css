@@ -1,3 +1,122 @@
+/* General Body CSS */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background: url('/static/images/MainPage2.jpg') no-repeat center center fixed; /* The image can be changed... */
+  background-position: 0px 45px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:#fff;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+/* End of general body CSS */
+
+/*************************** This box is where CSS cane be changed from page to page *******************************/
+
+.page-title {
+	font-size:700%;
+}
+
+.page-subtitle {
+	font-size:250%;
+}
+
+/*************************** End changeable box *******************************/
+
+/* Font CSS */
+.cursive-font {
+	font-family: 'Lobster', cursive;
+}
+
+.fancy-font {
+	font-family: 'Playfair Display SC', serif;
+}
+
+.main-font {
+	font-family: 'Ubuntu', sans-serif;
+}
+/* Font CSS */
+
+
+/*CSS for the white box that holds most of the content */
+#page-content {
+	background-color: #ffffff;
+	height: auto;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 150%;
+}
+
+#page-content p {
+	color: #000000;
+}
+
+#page-content p a {
+  color: #809aa2;
+}
+
+#page-content p a:active {
+  color: #809aa2;
+}
+
+#page-content p a:hover {
+  color: #809aa2;
+}
+
+#page-content p a:link {
+  color: #809aa2;
+}
+
+#page-content p a:visited {
+  color: #809aa2;
+}
+/* End Page Content CSS */
+
+/* CSS for the Footer */
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #809aa2;
+}
+
+#footer p {
+  padding-top: 20px;
+  color: #ffffff;
+}
+
+#footer p a:visited {
+  color: #000000;
+}
+
+#footer p a:hover {
+  color: #000000;
+}
+
+#footer p a:link {
+  color: #000000;
+}
+
+#footer p a:active {
+  color: #000000;
+}
+
+/*End footer CSS */
+
+/* NavBar css */
+
 .text-container {
   padding-top: 0px;
   padding-bottom: 1px;
@@ -18,26 +137,6 @@
   padding-top: 0px;
   padding-bottom: 0px;
 }
-
-body { 
-  padding-top: 70px;
-  padding-bottom: 40px;
-  /* Testing */
-  background: url('/static/images/MainPage2.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  color:#fff;
-    background-color:#333;
-}
-
-.content {
-  padding-top: 70px;
-  padding-bottom: 40px;
-}
-
-/* NavBar css */
 
 .navbar-default {
   background-color: #ffffff;
@@ -102,34 +201,16 @@ body {
 
 /* End of NavBar css */
 
-#footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 40px;
-  background-color: #ffffff;
-  border-color: #000000;
+/* CSS for the three link icons on the homepage */
+.link-icons {
+	color: #809aa2;
 }
 
-#footer p {
-  margin-top: 15px; 
-  color: #809aa2;
-}
-
-#footer p a:visited {
+.icon-active-highlight a:hover {
   color: #000000;
 }
 
-#footer p a:hover {
+.icon-active-highlight a:active {
   color: #000000;
 }
-
-#footer p a:link {
-  color: #000000;
-}
-
-#footer p a:active {
-  color: #000000;
-}
+/* End of icon CSS */

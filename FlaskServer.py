@@ -7,6 +7,10 @@ def hello():
     """Return a friendly HTTP greeting."""
     return render_template('MainPage.html')
 
+@app.route('/aboutme')
+def aboutMe():
+	return render_template('AboutMe.html')
+
 @app.route('/test')
 def test():
 	return render_template('test.html')
