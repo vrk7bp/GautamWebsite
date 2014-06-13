@@ -41,6 +41,8 @@ body {
   margin-right: 10px;
   margin-left: -10px;
 
+  color:#ffffff;
+
   /* Rounded Corners */
   border: 2px solid;
   border-radius: 25px;
