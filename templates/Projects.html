@@ -122,16 +122,72 @@
             <div class="row-fluid">
                 <div class="offsetHalf block" id="block-content">
                   <div class="text-center">
+                    <h1>HackerFeed, Hacker News Reader Application</h1>
+                    <h3> Current, [Independent Project]</h3>
+
+                    <div class="text-left" id="content-color">
+                        <p>
+                            There isn't a day that goes by where I haven't checked <a href="https://news.ycombinator.com/" target="_newtab"> Hacker News</a> atleast four to five times. But I don't always go through all of the top articles of the day, and instead find myself picking articles that are more related to topics such as Cloud Computing and entrepreneurship. This was the inspiration for HackerFeed. Along with two of my friends, <a href="http://github.com/mantazer" target="_newtab"> Muntaser</a> and <a href="https://github.com/a-beck" target="_newtab"> Andrew</a>, we decided to create a Hacker News reader application that would take into account the articles that you have read in order to reorganize the typical ordered feed coming from Hacker News directly.
+                        </p>
+
+                        <p>
+                            This project is still a work in progress, so the repository isn't public and I won't go into detail about how it works, yet. If you have any questions about the application, or want to see if you can help, feel free to <a href="mailto:gautamkwebsite@gmail.com?Subject=Website%20Hello"> e-mail me</a>.
+                        </p>
+
+                        <br>
+                    </div>
+                    <h2> Link to come... </h2>
+                    <p></p>
+                    <p></p>
+                  </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row-fluid">
+                <div class="offsetHalf block" id="block-content">
+                  <div class="text-center">
+                    <h1>This Website</h1>
+                    <h3> Summer 2014 - Present [Independent Project]</h3>
+
+                    <div class="text-left" id="content-color">
+                        <p>
+                            I decided after the Fall 2014 semester to take on the project of building my own website. I had just gotten comfortable with the <a href="http://flask.pocoo.org/" target="_newtab"> Flask web server</a>, and had played around with various cloud services such as Amazon Web Services and Google App Engine. I figured that building my own personal website would be the perfect way to build on what I had picked up from the previous semester, and the perfect opportunity to learn HTML and CSS (which I had very minimal experience with prior). What I am most proud of about this website is that I started literally from nothing and built this website myself. I built the server using Flask, figured out how to run it on GAE (which was a total pain), learned the HTML and CSS, and created a beautiful website. For a more in-depth look into how this site was created and my process, check out my <a href="http://gautamk.us/aboutsite"> About This Site page</a>.
+                        </p>
+
+                        <p>
+                            At some point soon, I hope to make a tutorial on the "programmer's guide to building a personal website". I will walk through building the Flask web server, putting it on App Engine, setting up a personal URL, and provide my HTML and CSS template for others to use. I figured it would be a fun little project that might help some people who are in the position I was in not too long ago.
+                        </p>
+
+                        <p>
+                            PS: I apologize in advance for the insane amount of commits I made to this repository, and the horrific commit messages. I added Push-To-Deploy to my GAE application, therefore every push I made to GitHub updated my application in the backend. I picked up on the 'Inspect Element' tool on Chrome late in the process, so you will see a lot of very small, meager changes between commits.
+                        </p>
+
+                        <br>
+                    </div>
+                    <a href="https://github.com/vrk7bp/GautamWebsite"> <button class="btn btn-primary btn-flat">GitHub Repository<i class="pull-right icon-chevron-right icon-large"></i></button> </a>
+                    <p></p>
+                    <p></p>
+                  </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row-fluid">
+                <div class="offsetHalf block" id="block-content">
+                  <div class="text-center">
                     <h1>OneDir, Rudimentary Version of DropBox</h1>
                     <h3> Spring 2014 [Advanced Software Development Methods]</h3>
 
                     <div class="text-left" id="content-color">
                         <p>
-                            The problem statement here was pretty simple. Using Python, we were tasked with creating our own rudimentary version of DropBox. The problem can be broken down into two separate sections, the client side which has to recognize file changes and "ping" the server accordingly and the server side which has to taken into account these changes and update the other synchronized users accordingly. For the client side, we used the Python framework <a href="https://pypi.python.org/pypi/watchdog" target="_newtab"> WatchDog</a> in order to monitor files. WatchDog is extremely easy to use, providing you the ability to trigger events based on the file activity that happened (for example, you can have a different event triggered if a file is created versus deleted). On the sever side, we built a <a href="http://flask.pocoo.org/" target="_newtab"> Flask web server</a> (again, very easy to use) and utilized its file transfer libraries in order to retrieve the updated files. At a basic level, we had each triggered WatchDog event hit a different endpoint of the Flask webserver so that the server could act accordingly. We also had another thread working in the background monitoring the server in case changes happen on another client's end (so that all machines that are accessing the server are updated). The Flask server was run on an AWS microinstance.
+                            The problem statement here was pretty simple. Using Python, we were tasked with creating our own rudimentary version of DropBox. The problem can be broken down into two separate sections, the client side which has to recognize file changes and "ping" the server accordingly and the server side which has to take into account these changes and update the other synchronized users accordingly. For the client side, we used the Python framework <a href="https://pypi.python.org/pypi/watchdog" target="_newtab"> WatchDog</a> in order to monitor files. WatchDog is extremely easy to use, providing you the ability to trigger events based on the file activity that happened (for example, you can have a different event triggered if a file is created versus deleted). On the sever side, we built a <a href="http://flask.pocoo.org/" target="_newtab"> Flask web server</a> (again, very easy to use) and utilized its file transfer libraries in order to retrieve the updated files. At a basic level, we had each triggered WatchDog event hit a different endpoint of the Flask webserver so that the server could act accordingly. We also had another thread working in the background monitoring the server in case changes happen on another client's end (so that all machines that are accessing the server are updated). The Flask server was run on an AWS micro-instance.
                         </p>
 
                         <p>
-                            Although I worked in a group of three other students on this project, I can confidentaly say that I did 95% of the coding for this project (as highlighted by <a href="https://github.com/vrk7bp/OneDir/graphs/contributors"> this graph</a>). Even though it wasn't the most ideal situation, especially during crunch time at the end of the semester, I really learned a lot from the project as a whole. From my experience building this OneDir system from back to front, I got comfortable picking up new libraries and frameworks that I knew nothing about and figuring out how to use them. I got really good with my debugging, google searching, and just general understanding of what to look for when figuring out new things.
+                            Although I worked in a group of three other students on this project, I can confidently  say that I did 95% of the coding for this project (as highlighted by <a href="https://github.com/vrk7bp/OneDir/graphs/contributors"> this graph</a>). Even though it wasn't the most ideal situation, especially during crunch time at the end of the semester, I really learned a lot from the project as a whole. From my experience building this OneDir system from back to front, I got comfortable picking up new libraries and frameworks that I knew nothing about and figuring out how to use them. I got really good with my debugging, google searching, and just general understanding of what to look for when figuring out new things.
                         </p>
 
                         <br>
