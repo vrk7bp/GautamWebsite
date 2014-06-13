@@ -23,9 +23,9 @@ def projects():
 def publications():
 	return render_template('Publications.html')
 
-@app.route('/test')
-def test():
-	return render_template('test.html')
+@app.route('/tracking')
+def tracker():
+	return render_template('tracker.html')
 
 @app.route('/nasa')
 def nasa():
