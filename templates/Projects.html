@@ -122,6 +122,62 @@
             <div class="row-fluid">
                 <div class="offsetHalf block" id="block-content">
                   <div class="text-center">
+                    <h1>OneDir, Rudimentary Version of DropBox</h1>
+                    <h3> Spring 2014 [Advanced Software Development Methods]</h3>
+
+                    <div class="text-left" id="content-color">
+                        <p>
+                            The problem statement here was pretty simple. Using Python, we were tasked with creating our own rudimentary version of DropBox. The problem can be broken down into two separate sections, the client side which has to recognize file changes and "ping" the server accordingly and the server side which has to taken into account these changes and update the other synchronized users accordingly. For the client side, we used the Python framework <a href="https://pypi.python.org/pypi/watchdog" target="_newtab"> WatchDog</a> in order to monitor files. WatchDog is extremely easy to use, providing you the ability to trigger events based on the file activity that happened (for example, you can have a different event triggered if a file is created versus deleted). On the sever side, we built a <a href="http://flask.pocoo.org/" target="_newtab"> Flask web server</a> (again, very easy to use) and utilized its file transfer libraries in order to retrieve the updated files. At a basic level, we had each triggered WatchDog event hit a different endpoint of the Flask webserver so that the server could act accordingly. We also had another thread working in the background monitoring the server in case changes happen on another client's end (so that all machines that are accessing the server are updated). The Flask server was run on an AWS microinstance.
+                        </p>
+
+                        <p>
+                            Although I worked in a group of three other students on this project, I can confidentaly say that I did 95% of the coding for this project (as highlighted by <a href="https://github.com/vrk7bp/OneDir/graphs/contributors"> this graph</a>). Even though it wasn't the most ideal situation, especially during crunch time at the end of the semester, I really learned a lot from the project as a whole. From my experience building this OneDir system from back to front, I got comfortable picking up new libraries and frameworks that I knew nothing about and figuring out how to use them. I got really good with my debugging, google searching, and just general understanding of what to look for when figuring out new things.
+                        </p>
+
+                        <br>
+                    </div>
+                    <a href="https://github.com/vrk7bp/OneDir"> <button class="btn btn-primary btn-flat">GitHub Repository<i class="pull-right icon-chevron-right icon-large"></i></button> </a>
+                    <p></p>
+                    <p></p>
+                  </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row-fluid">
+                <div class="offsetHalf block" id="block-content">
+                  <div class="text-center">
+                    <h1>TrashTalk, Android Application</h1>
+                    <h3> Fall 2013 <a href="http://mhacks.launchrock.com/" target="_newtab">[MHacks]</a> </h3>
+
+                    <div class="text-left" id="content-color">
+
+                        <p> 
+                            MHacks was my second Hackathon, but the first one where I really had a grasp as to what I was doing as a programmer. I was lucky enough to fly up to Ann Arbor, Michigan with my great partner and good friend <a href="http://github.com/mantazer" target="_newtab"> Muntaser</a>, which helped make the experience a great one. Unfortunately we didn't have an idea going into the Hackathon, and failed to come up with something that we could both agree on for some time (we both don't consider ourselves to be the most creative). Eventually we were able to combine our love of sports with our passion for trash talking other people into a creative application that we built throughout the weekend.
+                        </p>
+
+                        <p>
+                            TrashTalk is an application that allows the user to navigate through their contacts and select the favorite NFL teams for each contact. Then, based upon the happenings on Sunday, the application will automatically send trash talk to your friends via text message. For example, let's say that my friend Bob was a Steelers fan. If the Steelers are playing the Ravens, and the Ravens score a touchdown, a text message will be sent from my phone with some randomly generated trash talk to Bob.
+                        </p>
+
+                        <p>
+                            Unfortunately, we were unable to integrate the sports score API before we ran out of time. The application was 90% complete, with the UI to select teams in place and the text message generation working. We have yet to go back and integrate the sports API since we have moved on to working on other projects together. At some point we will come back and tie up all the loose ends on the app.
+                        </p>
+
+                        <br>
+                    </div>
+                    <a href="https://github.com/mantazer/TrashTalk"> <button class="btn btn-primary btn-flat">GitHub Repository<i class="pull-right icon-chevron-right icon-large"></i></button> </a>
+                    <p></p>
+                    <p></p>
+                  </div>
+                </div>
+            </div>
+
+            <br>
+            <div class="row-fluid">
+                <div class="offsetHalf block" id="block-content">
+                  <div class="text-center">
                     <h1>Self Guided UVa Tour, Android Application</h1>
                     <h3> Spring 2012 [Software Development Methods] </h3>
 
