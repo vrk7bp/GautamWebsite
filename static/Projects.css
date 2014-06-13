@@ -73,6 +73,26 @@ body {
   font-size:20pt;
 }
 
+#content-color p {
+  color: #ffffff;
+}
+
+#content-color p a:active {
+  color: #000000;
+}
+
+#content-color p a:hover {
+  color: #000000;
+}
+
+#content-color p a:link {
+  color: #000000;
+}
+
+#content-color p a:visited {
+  color: #000000;
+}
+
 /*************************** End changeable box *******************************/
 
 /* Font CSS */
