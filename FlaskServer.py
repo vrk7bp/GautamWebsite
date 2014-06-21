@@ -25,22 +25,23 @@ def timDuncan():
 def timDuncanSignUp():
 	text = request.form['text']
 	if(text.count("@") != 0):
-		mail.send_mail(sender="Example.com Support <venkata.gautam@gmail.com>",
+		mail.send_mail(sender="Tim Duncan <venkata.gautam@gmail.com>",
               to="Gautam <gautamkwebsite@gmail.com>",
               subject="Add someone to Tim Duncan List",
               body=text)
 		return redirect("http://www.gautamk.us", code=302)
 	return redirect("http://www.gautamk.us/timduncan", code=302)
 
-@app.route('/timduncanemail')#, methods=['POST'])
-def timDuncanForm():
-	listOfPeopleToSendTo = []
-	with open ("EmailList.txt", "r") as myfile:
-		listOfPeopleToSendTo = myfile.readlines()
-	emailListAsString = ""
-	for element in listOfPeopleToSendTo:
-		emailListAsString = emailListAsString + element + "\n"
-	return emailListAsString
+@app.route('/timduncanquit', methods=['POST'])
+def timDuncanQuit():
+	text = request.form['text']
+	if(text.count("@") != 0):
+		mail.send_mail(sender="Tim Duncan <venkata.gautam@gmail.com>",
+              to="Gautam <gautamkwebsite@gmail.com>",
+              subject="Unsubscribe someone from Tim Duncan List",
+              body=text)
+		return redirect("http://www.gautamk.us", code=302)
+	return redirect("http://www.gautamk.us/timduncan", code=302)
 
 @app.route('/projects')
 def projects():
