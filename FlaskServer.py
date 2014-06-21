@@ -1,5 +1,5 @@
 # Import the Flask Framework
-from flask import Flask, render_template, redirect
+from flask import Flask, render_template, redirect, request
 app = Flask(__name__)
 
 @app.route('/')
@@ -19,7 +19,7 @@ def aboutSite():
 def timDuncan():
 	return render_template('TimDuncan.html')
 
-@app.route('/timduncansignup', methods=['PUT'])
+@app.route('/timduncansignup', methods=['POST'])
 def timDuncanSignUp():
 	text = request.form['text']
 	if(text.count("@") != 0):
