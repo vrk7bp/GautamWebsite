@@ -25,7 +25,7 @@ def timDuncan():
 def timDuncanSignUp():
 	text = request.form['text']
 	if(text.count("@") != 0):
-		mail.send_mail(sender="Example.com Support <tim.duncan@gautamk.us>",
+		mail.send_mail(sender="Example.com Support <venkata.gautam@gmail.com>",
               to="Gautam <gautamkwebsite@gmail.com>",
               subject="Add someone to Tim Duncan List",
               body=text)
