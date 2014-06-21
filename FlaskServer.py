@@ -19,6 +19,15 @@ def aboutSite():
 def timDuncan():
 	return render_template('TimDuncan.html')
 
+@app.route('/timduncansignup', methods=['POST'])
+def timDuncanSignUp():
+	text = request.form['text']
+	if(text.count("@") != 0):
+		with open('EmailList.txt', 'a') as file:
+			file.write(text)
+		return redirect("http://www.gautamk.us", code=302)
+	return redirect("http://www.gautamk.us/timduncan", code=302)
+
 @app.route('/timduncanemail')#, methods=['POST'])
 def timDuncanForm():
 	listOfPeopleToSendTo = []
