@@ -19,7 +19,7 @@ def aboutSite():
 def timDuncan():
 	return render_template('TimDuncan.html')
 
-@app.route('/timduncansignup', methods=['POST'])
+@app.route('/timduncansignup', methods=['PUT'])
 def timDuncanSignUp():
 	text = request.form['text']
 	if(text.count("@") != 0):
