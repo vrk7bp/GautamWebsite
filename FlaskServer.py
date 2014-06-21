@@ -17,12 +17,16 @@ def aboutSite():
 
 @app.route('/timduncan')
 def timDuncan():
+	return render_template('TimDuncan.html')
+
+@app.route('/timduncanemail')#, methods=['POST'])
+def timDuncanForm():
 	listOfPeopleToSendTo = []
 	with open ("EmailList.txt", "r") as myfile:
 		listOfPeopleToSendTo = myfile.readlines()
 	emailListAsString = ""
 	for element in listOfPeopleToSendTo:
-		emailListAsString = emailListAsString + element
+		emailListAsString = emailListAsString + element + "\n"
 	return emailListAsString
 
 @app.route('/projects')
