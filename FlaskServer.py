@@ -1,5 +1,7 @@
 # Import the Flask Framework
 from flask import Flask, render_template, redirect, request
+from google.appengine.api import mail
+
 app = Flask(__name__)
 
 @app.route('/')
@@ -23,8 +25,10 @@ def timDuncan():
 def timDuncanSignUp():
 	text = request.form['text']
 	if(text.count("@") != 0):
-		with open('EmailList.txt', 'a') as file:
-			file.write(text)
+		mail.send_mail(sender="Example.com Support <tim.duncan@gautamk.us>",
+              to="Gautam <gautamkwebsite@gmail.com>",
+              subject="Add someone to Tim Duncan List",
+              body=text)
 		return redirect("http://www.gautamk.us", code=302)
 	return redirect("http://www.gautamk.us/timduncan", code=302)
 
