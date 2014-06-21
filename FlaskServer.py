@@ -20,7 +20,10 @@ def timDuncan():
 	listOfPeopleToSendTo = []
 	with open ("EmailList.txt", "r") as myfile:
 		listOfPeopleToSendTo = myfile.readlines()
-	return listOfPeopleToSendTo
+	emailListAsString = ""
+	for element in listOfPeopleToSendTo:
+		emailListAsString = emailListAsString + element
+	return emailListAsString
 
 @app.route('/projects')
 def projects():
