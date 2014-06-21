@@ -15,6 +15,13 @@ def aboutMe():
 def aboutSite():
 	return render_template('AboutSite.html')
 
+@app.route('/timduncan')
+def timDuncan():
+	listOfPeopleToSendTo = []
+	with open ("EmailList.txt", "r") as myfile:
+		listOfPeopleToSendTo = myfile.readlines()
+	return listOfPeopleToSendTo
+
 @app.route('/projects')
 def projects():
 	return render_template('Projects.html')
