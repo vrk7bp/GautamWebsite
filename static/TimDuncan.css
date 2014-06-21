@@ -32,6 +32,10 @@ body {
 	font-size:250%;
 }
 
+#textBox {
+  color: #000000
+}
+
 /*************************** End changeable box *******************************/
 
 /* Font CSS */
