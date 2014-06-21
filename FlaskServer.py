@@ -34,7 +34,7 @@ def timDuncanSignUp():
 
 @app.route('/timduncanquit', methods=['POST'])
 def timDuncanQuit():
-	text = request.form['text']
+	text = request.form['textQuit']
 	if(text.count("@") != 0):
 		mail.send_mail(sender="Tim Duncan <venkata.gautam@gmail.com>",
               to="Gautam <gautamkwebsite@gmail.com>",
