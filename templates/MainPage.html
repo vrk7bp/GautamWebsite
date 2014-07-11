@@ -165,13 +165,11 @@
     <script src="/static/bootstrap/js/bootstrap.min.js"></script>
 
     <script>
-/*        $(document).foundation();*/
-        $(document).on('mouseenter', function(){
+        $(document).ready(function(){
+            $('.center-icon').on('mouseenter', function(){
                $('.center-icon').effect('shake');
+            });
         });
-/*            $('.center-icon').on('mouseleave', function(){
-               $(this).effect('');
-            });*/
     </script>
 
   </body>
