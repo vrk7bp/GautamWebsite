@@ -95,10 +95,11 @@
     <div class="container">  
         <div class="row-fluid">
             <div class="text-center icon-active-highlight">
-                <a href="http://www.linkedin.com/pub/gautam-kanumuru/61/931/7a3" class="link-icons">
+                <a href="http://www.linkedin.com/pub/gautam-kanumuru/61/931/7a3" class="link-icons center-icon">
                     <i class="fa fa-linkedin-square fa-5x"></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="resume" class="link-icons" target="_newtab"><i class="fa fa-file-text fa-5x"></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="http://github.com/vrk7bp" class="link-icons"><i class="fa fa-github-square fa-5x"></i></a> &nbsp; 
+                <a href="resume" class="link-icons center-icon" target="_newtab"><i class="fa fa-file-text fa-5x"></i></a> 
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <a href="http://github.com/vrk7bp" class="link-icons center-icon"><i class="fa fa-github-square fa-5x"></i></a> &nbsp; 
             </div>
         </div>
     </div>
@@ -160,6 +161,18 @@
     <!-- CDN for Bootstrap JavaScript-->
     <!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> -->
     <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+    <script>
+/*        $(document).foundation();*/
+        $(document).ready(function(){
+            $('.center-icon').on('mouseenter', function(){
+               $(this).effect('shake');
+            });
+/*            $('.center-icon').on('mouseleave', function(){
+               $(this).effect('');
+            });*/
+        });
+    </script>
 
   </body>
 </html>
