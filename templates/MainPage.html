@@ -97,11 +97,11 @@
     <div class="container">  
         <div class="row-fluid">
             <div class="text-center icon-active-highlight">
-                <a href="http://www.linkedin.com/pub/gautam-kanumuru/61/931/7a3" class="link-icons center-icon">
+                <a href="http://www.linkedin.com/pub/gautam-kanumuru/61/931/7a3" class="link-icons center-icon1">
                     <i class="fa fa-linkedin-square fa-5x"></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="resume" class="link-icons center-icon" target="_newtab"><i class="fa fa-file-text fa-5x"></i></a> 
+                <a href="resume" class="link-icons center-icon2" target="_newtab"><i class="fa fa-file-text fa-5x"></i></a> 
                 &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="http://github.com/vrk7bp" class="link-icons center-icon"><i class="fa fa-github-square fa-5x"></i></a> &nbsp; 
+                <a href="http://github.com/vrk7bp" class="link-icons center-icon3"><i class="fa fa-github-square fa-5x"></i></a> &nbsp; 
             </div>
         </div>
     </div>
@@ -166,8 +166,14 @@
 
     <script>
         $(document).ready(function(){
-            $('.center-icon').on('mouseenter', function(){
-               $('.center-icon').effect('pulsate');
+            $('.center-icon1').on('mouseenter', function(){
+               $('.center-icon1').effect('bounce');
+            });
+            $('.center-icon2').on('mouseenter', function(){
+               $('.center-icon2').effect('pulsate');
+            });
+            $('.center-icon3').on('mouseenter', function(){
+               $('.center-icon3').effect('shake');
             });
         });
     </script>
