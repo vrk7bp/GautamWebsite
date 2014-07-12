@@ -165,7 +165,15 @@
     <script src="/static/bootstrap/js/bootstrap.min.js"></script>
 
     <script>
+
         $(document).ready(function(){
+            $('a.name-title').on('mouseenter', function(){
+               $(this).html("<b> Gautam Kanumuru <i class="fa fa-trophy fa-lg"></i> </b>");
+            });
+        });
+
+
+/*        $(document).ready(function(){
             $('.center-icon1').on('mouseenter', function(){
                $('.center-icon1').effect('pulsate',
                 {times:3}, 3000);
@@ -178,7 +186,9 @@
                $('.center-icon3').effect('pulsate',
                 {times:7}, 3000);
             });
-        });
+        });*/
+
+
     </script>
 
   </body>
