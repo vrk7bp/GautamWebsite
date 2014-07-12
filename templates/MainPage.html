@@ -168,12 +168,37 @@
 
         $(document).ready(function(){
             $('a.name-title').on('mouseenter', function(){
-/*                if($('a.name-title').html() === "<b> Gautam Kanumuru <i class=\"fa fa-trophy fa-lg\"></i> </b>") {
-                    $('a.name-title').html("<b> Gautam Kanumuru <i class=\"fa fa-child fa-lg\"></i> </b>");
-                }*/
-                if($('a.name-title').html() === "<b> Gautam Kanumuru <i class=\"fa fa-child fa-lg\"></i> </b>") {
-                    $('a.name-title').html("<b> Gautam Kanumuru <i class=\"fa fa-trophy fa-lg\"></i> </b>");
-                }
+                var number = 0;
+                setInterval(function(){
+                    if(number == 0) {
+                        $('a.name-title').html("<b> Gautam Kanumuru <i class=\"fa fa-child fa-lg\"></i> </b>");
+                        number = 1
+                    }
+                    else if(number == 1){
+                        $('a.name-title').html("<b> Gautam Kanumuru <i class=\"fa fa-trophy fa-lg\"></i> </b>");
+                        number = 2
+                    }
+                    else if(number == 2){
+                        $('a.name-title').html("<b> Gautam Kanumuru <i class=\"fa fa-university fa-lg\"></i> </b>");
+                        number = 3
+                    }
+                    else if(number == 3){
+                        $('a.name-title').html("<b> Gautam Kanumuru <i class=\"fa fa-rocket fa-lg\"></i> </b>");
+                        number = 4
+                    }
+                    else if(number == 4){
+                        $('a.name-title').html("<b> Gautam Kanumuru <i class=\"fa fa-thumbs-up fa-lg\"></i> </b>");
+                        number = 5
+                    }
+                    else if(number == 5){
+                        $('a.name-title').html("<b> Gautam Kanumuru <i class=\"fa fa-cutlery fa-lg\"></i> </b>");
+                        number = 6
+                    }
+                    else{
+                        $('a.name-title').html("<b> Gautam Kanumuru <i class=\"fa fa-hacker-news fa-lg\"></i> </b>");
+                        number = 0
+                    }
+                }, 500);
             });
         });
 
