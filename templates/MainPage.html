@@ -168,9 +168,9 @@
 
         $(document).ready(function(){
             var htmlVal = "";
+            var number = 0;
             $('a.name-title').hover(function(){
-                var number = 0;
-                setInterval(function(){
+                var refreshIntervalID = setInterval(function(){
                     if(number == 0) {
                         $('a.name-title').html("<b> Gautam Kanumuru <i class=\"fa fa-child fa-lg\"></i> </b>");
                         htmlVal = "<b> Gautam Kanumuru <i class=\"fa fa-child fa-lg\"></i> </b>";
@@ -201,14 +201,14 @@
                         htmlVal = "<b> Gautam Kanumuru <i class=\"fa fa-cutlery fa-lg\"></i> </b>";
                         number = 6
                     }
-                    else{
+                    else if(nubmer == 6){
                         $('a.name-title').html("<b> Gautam Kanumuru <i class=\"fa fa-hacker-news fa-lg\"></i> </b>");
                         htmlVal = "<b> Gautam Kanumuru <i class=\"fa fa-hacker-news fa-lg\"></i> </b>";
                         number = 0
                     }
                 }, 500);
             }, function(){
-                $('a.name-title').html(htmlVal);
+                clearInterval(refreshIntervalID);
             });
         });
     </script>
