@@ -167,13 +167,16 @@
     <script>
         $(document).ready(function(){
             $('.center-icon1').on('mouseenter', function(){
-               $('.center-icon1').effect('bounce');
+               $('.center-icon1').effect('pulsate',
+                {times:3}, 3000);
             });
             $('.center-icon2').on('mouseenter', function(){
-               $('.center-icon2').effect('pulsate');
+               $('.center-icon2').effect('pulsate',
+                {times:5}, 3000);
             });
             $('.center-icon3').on('mouseenter', function(){
-               $('.center-icon3').effect('shake');
+               $('.center-icon3').effect('pulsate',
+                {times:7}, 3000);
             });
         });
     </script>
