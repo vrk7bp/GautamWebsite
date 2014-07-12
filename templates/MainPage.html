@@ -169,7 +169,7 @@
         $(document).ready(function(){
             var htmlVal = "";
             var number = 0;
-            var refreshIntervalID;
+            var refreshIntervalID = null;
             $('a.name-title').hover(function(){
                 refreshIntervalID = setInterval(function(){
                     if(number == 0) {
