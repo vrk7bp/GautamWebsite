@@ -83,7 +83,8 @@ body {
 /*CSS for the white box that holds most of the content */
 #page-content {
 	background-color: #ffffff;
-	height: auto;
+  height: 100%;
+/*	height: auto;*/
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 150%;
 }
