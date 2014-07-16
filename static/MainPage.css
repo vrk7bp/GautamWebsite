@@ -1,7 +1,7 @@
 /* General Body CSS */
 html {
   position: relative;
-  /*min-height: 100%;*/
+  min-height: 100%;
 }
 
 body {
@@ -83,9 +83,11 @@ body {
 /*CSS for the white box that holds most of the content */
 #page-content {
 	background-color: #ffffff;
-  height: 100%;
+  height: auto;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 150%;
+  position: absolute;
+  bottom: 60px;
 }
 
 #page-content p {
