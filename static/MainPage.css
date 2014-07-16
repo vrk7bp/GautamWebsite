@@ -86,8 +86,7 @@ body {
   height: 100%;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 150%;
-  position: relative;
-  /*bottom: 60px;*/
+  position: fixed;
 }
 
 #page-content p {
