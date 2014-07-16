@@ -243,6 +243,54 @@ body {
   color: #000000;
 }
 
+#hacker-feed a:active {
+  color: #000000;
+}
+
+#hacker-feed a:hover {
+  color: #000000;
+}
+
+#hacker-feed a:link {
+  color: #000000;
+}
+
+#hacker-feed a:visited {
+  color: #000000;
+}
+
+#tim-duncan a:active {
+  color: #000000;
+}
+
+#tim-duncan a:hover {
+  color: #000000;
+}
+
+#tim-duncan a:link {
+  color: #000000;
+}
+
+#tim-duncan a:visited {
+  color: #000000;
+}
+
+#one-dir a:active {
+  color: #000000;
+}
+
+#one-dir a:hover {
+  color: #000000;
+}
+
+#one-dir a:link {
+  color: #000000;
+}
+
+#one-dir a:visited {
+  color: #000000;
+}
+
 .btn-flat {
   border-radius:0px;
   border-width:0;
