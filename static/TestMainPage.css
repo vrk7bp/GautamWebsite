@@ -213,6 +213,14 @@ body {
   font-size:400%;
 }
 
+.page-titleMain {
+  font-size:700%;
+}
+
+.page-subtitleMain {
+  font-size:250%;
+}
+
 .block {
   background-color:#809aa2;
   height:auto;
