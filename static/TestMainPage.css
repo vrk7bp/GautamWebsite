@@ -216,6 +216,10 @@ body {
   color: #809aa2;
 }
 
+.link-iconsNotMain {
+  color: white;
+}
+
 .icon-active-highlight a:hover {
   color: #000000;
 }
