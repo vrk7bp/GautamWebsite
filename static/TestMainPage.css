@@ -228,6 +228,33 @@ body {
   background-size: cover;
 }
 
+#AboutMeBackground {
+  background: url('/static/images/AboutMe.jpg') no-repeat center center fixed; /* The image can be changed... */
+  background-position: 0px -100px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#AboutSiteBackground {
+  background: url('/static/images/AboutSite.jpg') no-repeat center center fixed; /* The image can be changed... */
+  background-position: 0px -270px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#PublicationsBackground {
+  background: url('/static/images/Publications.jpg') no-repeat center center fixed; /* The image can be changed... */
+  background-position: 0px -60px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .smaller-font {
   font-size:65%;
 }
