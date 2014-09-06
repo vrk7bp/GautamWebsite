@@ -187,6 +187,18 @@ body {
   }
 }
 
+
+@media (min-width: 330px) {
+  .page-title {
+    font-size:400%;
+  }
+
+  .page-titleMain {
+    font-size:400%;
+  }
+}
+
+
 /* End of NavBar css */
 
 /* CSS for the three link icons on the homepage */
@@ -206,7 +218,7 @@ body {
 /*************************** This box is where CSS cane be changed from page to page *******************************/
 
 .page-title {
-  font-size:3em;
+  font-size:1000%;
 }
 
 .page-subtitle {
@@ -214,7 +226,7 @@ body {
 }
 
 .page-titleMain {
-  font-size:9em;
+  font-size:700%;
 }
 
 .page-subtitleMain {
