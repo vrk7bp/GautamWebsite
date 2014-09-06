@@ -219,7 +219,7 @@ body {
 
 /*************************** This box is where CSS can be changed from page to page *******************************/
 
-#ProjectsPage {
+#ProjectsBackground {
   background: url('/static/images/Projects.jpg') no-repeat center center fixed; /* The image can be changed... */
   background-position: 0px -270px;
 }
