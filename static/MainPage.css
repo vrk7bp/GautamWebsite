@@ -22,75 +22,31 @@ body {
 
 /* End of general body CSS */
 
-/*************************** This box is where CSS cane be changed from page to page *******************************/
-
-.page-title {
-	font-size:700%;
-}
-
-.page-subtitle {
-	font-size:250%;
-}
-
-/*************************** End changeable box *******************************/
-
-.block {
-  background-color:#809aa2;
-  height:auto;
-  padding-left:12px;
-  padding-right:12px;
-  margin-bottom: 20px;
-  margin-right: 10px;
-  margin-left: -10px;
-
-  /* Rounded Corners */
-  border: 2px solid;
-  border-radius: 25px;
-}
-
-#block-content a:active {
-  color: #000000;
-}
-
-#block-content a:hover {
-  color: #000000;
-}
-
-#block-content a:link {
-  color: #000000;
-}
-
-#block-content a:visited {
-  color: #000000;
-}
-
-
 /* Font CSS */
 .cursive-font {
-	font-family: 'Lobster', cursive;
+  font-family: 'Lobster', cursive;
 }
 
 .fancy-font {
-	font-family: 'Playfair Display SC', serif;
+  font-family: 'Playfair Display SC', serif;
 }
 
 .main-font {
-	font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 /* Font CSS */
 
 
 /*CSS for the white box that holds most of the content */
 #page-content {
-	background-color: #ffffff;
-  height: 100%;
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 150%;
-  position: fixed;
+  background-color: #ffffff;
+  height: auto;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 150%;
 }
 
 #page-content p {
-	color: #000000;
+  color: #000000;
 }
 
 #page-content p a {
@@ -231,11 +187,25 @@ body {
   }
 }
 
+@media all and (min-width : 500px) {
+  .page-title {
+    font-size:1000%;
+  }
+
+  .page-titleMain {
+    font-size:700%;
+  }
+}
+
 /* End of NavBar css */
 
 /* CSS for the three link icons on the homepage */
 .link-icons {
-	color: #809aa2;
+  color: #809aa2;
+}
+
+.link-iconsNotMain {
+  color: white;
 }
 
 .icon-active-highlight a:hover {
@@ -246,3 +216,171 @@ body {
   color: #000000;
 }
 /* End of icon CSS */
+
+/*************************** This box is where CSS can be changed from page to page *******************************/
+
+#ProjectsBackground {
+  background: url('/static/images/Projects.jpg') no-repeat center center fixed; /* The image can be changed... */
+  background-position: 0px -200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#AboutMeBackground {
+  background: url('/static/images/AboutMe.jpg') no-repeat center center fixed; /* The image can be changed... */
+  background-position: 0px -100px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#AboutSiteBackground {
+  background: url('/static/images/AboutSite.jpg') no-repeat center center fixed; /* The image can be changed... */
+  background-position: 0px -200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#PublicationsBackground {
+  background: url('/static/images/Publications.jpg') no-repeat center center fixed; /* The image can be changed... */
+  background-position: 0px -60px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.smaller-font {
+  font-size:65%;
+}
+.page-title {
+  font-size:4em;
+}
+
+.page-subtitle {
+  font-size:400%;
+}
+
+.page-titleMain {
+  font-size:4em;
+}
+
+.page-subtitleMain {
+  font-size:250%;
+}
+
+.block {
+  background-color:#809aa2;
+  height:auto;
+  padding-left:12px;
+  padding-right:12px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: -10px;
+
+  /* Rounded Corners */
+  border: 2px solid;
+  border-radius: 25px;
+}
+
+#block-content a:active {
+  color: #000000;
+}
+
+#block-content a:hover {
+  color: #000000;
+}
+
+#block-content a:link {
+  color: #000000;
+}
+
+#block-content a:visited {
+  color: #000000;
+}
+
+#hacker-feed a:active {
+  color: #000000;
+}
+
+#hacker-feed a:hover {
+  color: #000000;
+}
+
+#hacker-feed a:link {
+  color: #000000;
+}
+
+#hacker-feed a:visited {
+  color: #000000;
+}
+
+#tim-duncan a:active {
+  color: #000000;
+}
+
+#tim-duncan a:hover {
+  color: #000000;
+}
+
+#tim-duncan a:link {
+  color: #000000;
+}
+
+#tim-duncan a:visited {
+  color: #000000;
+}
+
+#one-dir a:active {
+  color: #000000;
+}
+
+#one-dir a:hover {
+  color: #000000;
+}
+
+#one-dir a:link {
+  color: #000000;
+}
+
+#one-dir a:visited {
+  color: #000000;
+}
+
+.btn-flat {
+  border-radius:0px;
+  border-width:0;
+  background-image:none;
+  padding:16px;
+  margin:0 auto;
+  margin-top:15px;
+  width:70%;
+  font-size:20pt;
+}
+
+#content-color p {
+  color: #ffffff;
+}
+
+#content-color p a:active {
+  color: #000000;
+}
+
+#content-color p a:hover {
+  color: #000000;
+}
+
+#content-color p a:link {
+  color: #000000;
+}
+
+#content-color p a:visited {
+  color: #000000;
+}
+
+/*************************** End changeable box *******************************/

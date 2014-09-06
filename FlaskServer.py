@@ -15,7 +15,7 @@ def aboutMe():
 
 @app.route('/testing')
 def testing():
-	return render_template('TestMainPage.html')
+	return render_template('MainPageSeptember6th2014.html')
 
 @app.route('/aboutsite')
 def aboutSite():
