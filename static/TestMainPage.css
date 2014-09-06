@@ -197,18 +197,6 @@ body {
   }
 }
 
-/*@media (min-width : 1824px) {
-  .page-title {
-    font-size:1000%;
-  }
-
-  .page-titleMain {
-    font-size:700%;
-  }
-}*/
-
-
-
 /* End of NavBar css */
 
 /* CSS for the three link icons on the homepage */
@@ -229,7 +217,12 @@ body {
 }
 /* End of icon CSS */
 
-/*************************** This box is where CSS cane be changed from page to page *******************************/
+/*************************** This box is where CSS can be changed from page to page *******************************/
+
+#ProjectsPage {
+  background: url('/static/images/Projects.jpg') no-repeat center center fixed; /* The image can be changed... */
+  background-position: 0px -270px;
+}
 
 .smaller-font {
   font-size:65%;
