@@ -221,7 +221,7 @@ body {
 
 #ProjectsBackground {
   background: url('/static/images/Projects.jpg') no-repeat center center fixed; /* The image can be changed... */
-  background-position: 0px -270px;
+  background-position: 0px -200px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -239,7 +239,7 @@ body {
 
 #AboutSiteBackground {
   background: url('/static/images/AboutSite.jpg') no-repeat center center fixed; /* The image can be changed... */
-  background-position: 0px -270px;
+  background-position: 0px -200px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
