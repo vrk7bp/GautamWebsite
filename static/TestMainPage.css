@@ -5,8 +5,8 @@ html {
 }
 
 body {
-  background: url('/static/images/Projects.jpg') no-repeat center center fixed; /* The image can be changed... */
-  background-position: 0px -270px;
+  background: url('/static/images/MainPage.jpg') no-repeat center center fixed; /* The image can be changed... */
+  background-position: 0px 45px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
