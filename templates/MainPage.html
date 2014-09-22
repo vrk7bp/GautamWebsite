@@ -208,6 +208,37 @@
                 <br>
 
                 <div class="row-fluid">
+                    <div class="offsetHalf block" id="project-pulsar">
+                      <div class="text-center">
+                        <h1>Project Pulsar, Reporting Power Outages</h1>
+                        <h3> Fall 2014, <a href="http://2014f.pennapps.com/" target="_newtab">[PennApps X]</a></h3>
+
+                        <div class="text-left" id="content-color">
+
+                            <p>
+                                During large power outages, especially those caused by large storms, power suppliers waste lots of money and time trying to figure out what houses and neighborhoods have power and which don't. When Hurricane Sandy hit the New York/New Jersey area, it was estimated that power suppliers took thousands of trips out to the affected areas to simply figure out which houses had power and which ones didn't. This massive inefficiency was the inspiration for Project Pulsar. My partner <a href="http://github.com/mantazer" target="_newtab"> Muntaser</a> and I created a system that rests on the basic assumption that as long as a house has access to internet, that they have access to electricity. We used an Intel Galileo Embedded System to send http requests to a central Amazon EC2 server, with the idea that the embedded system represents the "sensor" in the house. With the server, we had a central database that kept track of the state of every embedded system on the network. When the server notices that one of the systems has been down longer than usual (meaning an http request hasn't been received  from the embedded system recently), we probe the Internet Service Provider (i.e. Comcast) via a Twilio Application in order to figure out if there is an Internet Outage on the side of the ISP as opposed to a power outage. Once this decision is made, and if it is determined that there is a Power Outage, the information is conveyed to the power distributor via a web client.
+                            </p>
+                            <p>
+                                This project gained a lot of recognition at PennApps, especially by the hardware sponsors. Both Muntaser and I, as well as a couple of Electrical Engineering friends, hope to continue the project to see if we can truly find a way to determine power outages cheaply and efficiently. Although Project Pulsar as it stands may fit the basic mold, getting access to user's internet (with security and passwords) as well as configuring with the Internet Service Provider (so as to differentiate between a power outage and internet outage) has to be fleshed out more before this project can truly become scalable.
+                            </p>
+
+                            <p>
+                                If you are interested in finding out more about the project, feel free to shoot me an <a href="mailto:gautamkwebsite@gmail.com?Subject=Website%20Hello"> e-mail </a>.
+                            </p>
+
+                        </div>
+                        <a href="https://github.com/mantazer/Project-Pulsar"> <button class="btn btn-primary btn-flat">GitHub Repo<i class="pull-right icon-chevron-right icon-large"></i></button> </a>
+                        <p></p>
+                        <a href="http://challengepost.com/software/project-pulsar"> <button class="btn btn-primary btn-flat">Challenge Post<i class="pull-right icon-chevron-right icon-large"></i></button> </a>
+                        <p></p>
+                        <p></p>
+                      </div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row-fluid">
                     <div class="offsetHalf block" id="hacker-feed">
                       <div class="text-center">
                         <h1>HackerFeed, Hacker News Reader Application</h1>
