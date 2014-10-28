@@ -15,7 +15,7 @@ def aboutMe():
 
 @app.route('/chad')
 def chad(): {
-	return "hello chad"
+	return render_template('AboutMe.html')
 }
 
 @app.route('/testing')
