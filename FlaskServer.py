@@ -13,6 +13,11 @@ def hello():
 def aboutMe():
 	return render_template('AboutMe.html')
 
+@app.route('/chad')
+def chad(): {
+	return "hello chad"
+}
+
 @app.route('/testing')
 def testing():
 	return render_template('MainPageSeptember6th2014.html')
