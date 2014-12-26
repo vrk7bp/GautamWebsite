@@ -76,11 +76,11 @@ def uvpaper():
 	return redirect("https://s3.amazonaws.com/GautamResume/UVPaper.pdf", code=302)
 
 @app.route('/fieabstract')
-def uvabstract():
+def fieabstract():
 	return redirect("https://s3.amazonaws.com/GautamResume/FIEAbstract.pdf", code=302)
 
 @app.route('/fiepaper')
-def uvpaper():
+def fiepaper():
 	return redirect("https://s3.amazonaws.com/GautamResume/FIEPaper.pdf", code=302)
 
 @app.errorhandler(404)
