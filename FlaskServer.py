@@ -75,6 +75,14 @@ def uvabstract():
 def uvpaper():
 	return redirect("https://s3.amazonaws.com/GautamResume/UVPaper.pdf", code=302)
 
+@app.route('/fieabstract')
+def uvabstract():
+	return redirect("https://s3.amazonaws.com/GautamResume/FIEAbstract.pdf", code=302)
+
+@app.route('/fiepaper')
+def uvpaper():
+	return redirect("https://s3.amazonaws.com/GautamResume/FIEPaper.pdf", code=302)
+
 @app.errorhandler(404)
 def page_not_found(e):
     """Custom 404 Page."""
