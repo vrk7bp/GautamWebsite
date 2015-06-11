@@ -49,7 +49,7 @@ def timDuncanQuit():
 
 @app.route('/projects')
 def projects():
-	return render_template('Projects.html')
+	return render_template('Publications.html')
 
 @app.route('/pubs')
 def publications():
